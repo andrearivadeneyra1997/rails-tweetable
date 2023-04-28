@@ -1,0 +1,21 @@
+.body {
+  background-color: #F2F2F2;
+  min-height: 100vh;
+}
+
+.body .tweets-box {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+}
+
+.body .tweet {
+  padding: 4px 8px;
+  background-color: white;
+  border-radius: 5px;
+  width: 100%;
+  height: 168px;
+}

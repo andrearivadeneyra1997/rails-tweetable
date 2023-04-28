@@ -1,0 +1,10 @@
+<%= stylesheet_link_tag "tweets" %>
+<div class="body">
+  <div class="tweets-box">
+    <% @tweets.each do |tweet| %>
+      <div class="tweet">
+        <div><%= tweet.body %></div>
+      </div>
+    <% end %>
+  </div>
+</div>
